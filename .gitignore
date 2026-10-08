@@ -1,0 +1,23 @@
+# 编译产物
+dist/
+*.js.map
+
+# 依赖
+node_modules/
+
+# 打包产物
+*.toolpkg
+com.operit.telegram_bridge/
+
+# 密钥 / 本地配置（绝不提交）
+.env
+.env.*
+*.token
+config.local.json
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

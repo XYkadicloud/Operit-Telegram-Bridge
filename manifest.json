@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "toolpkg_id": "com.operit.telegram_bridge",
+  "version": "0.1.0",
+  "api_version": "1.0.0",
+  "main": "dist/main.js",
+  "display_name": {
+    "zh": "Telegram 桥接",
+    "en": "Telegram Bridge"
+  },
+  "description": {
+    "zh": "让 Telegram 消息直接唤醒 Operit AI：在 Telegram 侧流式显示思考过程与工具调用，回复后自动清理进度消息。",
+    "en": "Let Telegram messages wake up the Operit AI directly, stream thinking and tool calls back into Telegram, and clean up progress messages after replying."
+  },
+  "enabled_by_default": false,
+  "subpackages": [
+    {
+      "id": "telegram_bridge",
+      "entry": "dist/packages/telegram_bridge.js"
+    }
+  ]
+}
